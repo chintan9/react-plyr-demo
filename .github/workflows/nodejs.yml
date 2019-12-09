@@ -24,3 +24,5 @@ jobs:
         npm test
       env:
         CI: true
+    - name: Get Changed Files
+      uses: lots0logs/gh-action-get-changed-files@1.0.2
